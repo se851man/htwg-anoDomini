@@ -1,7 +1,6 @@
-import de.htwg.se.anoDomini.model.Card
+//import de.htwg.se.anoDomini.model.Card
 
-1+2
-1<2
+case class Card(year:Int)
 
 val card1 = new Card(1)
 card1.year
@@ -29,3 +28,5 @@ def remove(): Unit ={
   deck = deck.filter(_ != removedCard)
   return removedCard
 }
+remove()
+deck
