@@ -9,7 +9,7 @@ import org.scalatest.{Matchers, WordSpec}
   The order is correct, if the "left" Card has a lower value than the "right" Card.
  */
 class TableSpec extends WordSpec with Matchers {
-  "A Table" when { "new" should {
+ /* "A Table" when { "new" should {
     val table = Table()
-  }}
+  }}*/
 }
