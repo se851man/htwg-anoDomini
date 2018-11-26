@@ -17,9 +17,9 @@ case class Deck(deck:List[Card]) {
     deck.filter(_ != removedCard)
     return removedCard
   }
-  def add(card:Card): Card =
+  /*def add(card:Card): Card =
   {
     deck :+ card
-  }
+  }*/
 
 }

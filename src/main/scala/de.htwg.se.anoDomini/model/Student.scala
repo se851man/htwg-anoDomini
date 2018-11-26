@@ -7,7 +7,7 @@ object Hello{ //companion Object
   }
 }
 
-package de.htwg.se.anoDomini.model
+//package de.htwg.se.anoDomini.model
 
 case class Student(name: String) {
   def f(x: Int) : Int = x + 1

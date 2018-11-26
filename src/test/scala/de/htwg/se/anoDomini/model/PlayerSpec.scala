@@ -7,6 +7,7 @@ import org.scalatest.{Matchers, WordSpec}
   Each Player has their own Name and their own Set of Cards.
   A Player can draw Cards from the Deck.
   A Player can place Cards on the Table.
+  A Player has won if he has no more Cards left
  */
 
 class PlayerSpec extends WordSpec with Matchers {
